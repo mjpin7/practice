@@ -1,3 +1,8 @@
+/**
+ * Function to return the correct fizzbuzz value
+ * 
+ * @param {number} num          The number to get the value for
+ */
 function whatVal(num)
 {
     var value = num;
@@ -18,6 +23,11 @@ function whatVal(num)
     return value
 }
 
+/**
+ * Function to make the fizzbuzz array
+ * 
+ * @param {number} num 
+ */
 function makeArray(num)
 {
     var array = [];
@@ -30,6 +40,11 @@ function makeArray(num)
     return array;
 }
 
+/**
+ * Function to put the fizzbuzz boxes on the screen
+ * 
+ * @param {number} num 
+ */
 function doFizz(num)
 {
     // Make the array
@@ -49,6 +64,9 @@ function doFizz(num)
     });
 }
 
+/**
+ * Function to handle the form
+ */
 function formHandle()
 {
     $('#chooseANumber').submit(function(event) {
