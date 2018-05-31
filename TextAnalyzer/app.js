@@ -1,3 +1,8 @@
+/**
+ * Funciton to find the average length of the words
+ * 
+ * @param {array of strings} tokens 
+ */
 function findAverage(tokens)
 {
     // Join all the tokens together
@@ -6,6 +11,11 @@ function findAverage(tokens)
     return (bigWord.length / tokens.length).toFixed(2);
 }
 
+/**
+ * Function to go through the tokens array and find the amount of distinct words
+ * 
+ * @param {array of strings} tokens         The array of tokens to check
+ */
 function findDistinctWords(tokens)
 {
     var words = [];
@@ -23,6 +33,11 @@ function findDistinctWords(tokens)
     return words.length;
 }
 
+/**
+ * Function that tokenizes the given text into an array of words
+ * 
+ * @param {string} text         The string to tolenize
+ */
 function tokenize(text)
 {
     // Gets ride of any newlines (workds for windows, linux and OSX)
@@ -39,6 +54,11 @@ function tokenize(text)
     return newArray;
 }
 
+/**
+ * Function that gets the values needed and shows them on the screen
+ * 
+ * @param {string} text             The string to use
+ */
 function setSummary(text)
 {
     // Get all the values
@@ -56,6 +76,9 @@ function setSummary(text)
 
 }
 
+/**
+ * Function for handling when the submit buttons is pressed
+ */
 function handleSubmit()
 {
     $('#textAnalyze').submit(function(event) {
@@ -73,6 +96,7 @@ function handleSubmit()
     });
 }
 
+// Call the function on load
 $(function() {
     handleSubmit();
 });
