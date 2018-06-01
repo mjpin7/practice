@@ -30,7 +30,7 @@ function findDistinctWords(tokens)
         }
     }
 
-    return words.length;
+    return words;
 }
 
 /**
@@ -69,7 +69,7 @@ function setSummary(text)
     // Show it on the html
     var report = $('.report');
     report.find('.js-count').text(tokens.length)
-    report.find('.js-ucount').text(numDwords);
+    report.find('.js-ucount').text(numDwords.length + ". They are as such: " + numDwords.join(', ') + '.');
     report.find('.js-avLength').text(avLength + " characters");
 
     report.removeClass('hidden');
