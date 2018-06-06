@@ -191,13 +191,9 @@ class LinkedList
             {
                 Node *n = head;
 
-                // The node before n
-                Node *prev = n;
-
                 // Get to the end
                 while(n->next != NULL)
                 {
-                    prev = n;
                     n = n->next;
                 }
                     
@@ -354,7 +350,9 @@ int main()
     list1.push_back(78);
 
     cout << "Erased node at index \"1\": " << list1.erase(1) << endl;
-    
+
+    cout << "Popped back: " << list1.pop_back() << endl;
+    cout << "Size: " << list1.size() << endl;
     
     
 
