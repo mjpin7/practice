@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Analyzer</title>
+
+        <link rel="stylesheet" href="main.css">
+        <!-- Link to JQuery library -->
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <section>
+            <!-- Form for inputting the text to be analyzed -->
+            <form id="textAnalyze" action="">
+
+                <!-- Text area for the input -->
+                <label for="inputText">Insert text to analyze: </label><br>
+                <textarea name="inputText" id="inputText" cols="60" rows="20" required></textarea><br>
+                <input type="submit" value="Analyze">
+            </form>
+        </section>
+
+        <section>
+            <!-- Section that is initially hidden when the button has not been pressed -->
+            <dl class="hidden report">
+
+                <!-- Section for the total word count -->
+                <dt>Word Count:</dt>
+                <dd class="js-count"></dd>
+
+                <!-- Section for the unique word count -->
+                <dt>Unique word count:</dt>
+                <dd class="js-ucount"></dd>
+
+                <!-- Section for the average word length -->
+                <dt>Average word length:</dt>
+                <dd class="js-avLength"></dd>
+            </dl>
+        </section>
+    </body>
+</html>
