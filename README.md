@@ -1,7 +1,7 @@
 # Practice
 Practice implementing various data structures and algorithms in different languages.
-Some of the topics implement are:
 
+## Contents
 * [Dynamic Array (C++)](#dyn-array)
 * [Linked List](#link-list)
 
