@@ -1,6 +1,12 @@
-# practice
+# Practice
 Practice implementing various data structures and algorithms in different languages.
 Some of the topics implement are:
+
+Dynamic Array (C++)
+  - Program to dynamically create a resizable array
+  - growArray(arr, size): Doubles the size of the array. Allocates and frees memory when needed
+  - printArray(arr, size): Prints the array to the console
+  - getInput(arr, size): Gets input to enter into the array
 
 Linked List
   - size(): Finds the size of the list
