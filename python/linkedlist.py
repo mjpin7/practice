@@ -11,6 +11,16 @@ class LinkedList:
     # Constructor
     def __init__(self):
         self.head = None
+    
+    def printList(self):
+        n = self.head
+
+        print("List: ", end = " ")
+        while(n):
+            print(n.value, end = " ")
+            n = n.next
+
+        print("")
 
     # Function to get the size
     #
@@ -41,7 +51,7 @@ class LinkedList:
     def value_at(self, index):
         temp = self.head
 
-        if index > self.size:
+        if index > self.size():
             print("Invalid index")
             return
         
@@ -155,7 +165,7 @@ class LinkedList:
         n = Node(value=value)
         temp = self.head
 
-        if index > self.size:
+        if index > self.size():
             print("Invalid index")
             return
 
@@ -184,7 +194,7 @@ class LinkedList:
         temp = self.head
         prev = temp
 
-        if index > self.size:
+        if index > self.size():
             print("Invalid index")
             return
 
@@ -215,6 +225,7 @@ print("Is empty", list.empty())
 list.pop_back()
 list.insert(0, 89)
 list.insert(1, 9)
+list.printList()
 print("Front %d" % (list.front()))
 print("Back %d" % (list.back()))
 print("Erased index 1: %d" % (list.erase(1)))
