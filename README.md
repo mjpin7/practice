@@ -5,13 +5,13 @@ Some of the topics implement are:
 * [Dynamic Array (C++)](#dyn-array)
 * [Linked List](#link-list)
 
-## <a name="dyn-array"></a>Dynamic Array (C++)
+#### <a name="dyn-array"></a>Dynamic Array (C++)
   - Program to dynamically create a resizable array
   - growArray(arr, size): Doubles the size of the array. Allocates and frees memory when needed
   - printArray(arr, size): Prints the array to the console
   - getInput(arr, size): Gets input to enter into the array
 
-## <a name="link-list"></a>Linked List
+#### <a name="link-list"></a>Linked List
   - size(): Finds the size of the list
   - empty(): Returns if the list is empty or not
   - value_at(index): Finds the value at a specified index
