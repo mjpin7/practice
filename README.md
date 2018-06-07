@@ -11,7 +11,7 @@ Some of the topics implement are:
   - printArray(arr, size): Prints the array to the console
   - getInput(arr, size): Gets input to enter into the array
 
-## <a name="link-list"></a>Dynamic Array (C++)Linked List
+## <a name="link-list"></a>Linked List
   - size(): Finds the size of the list
   - empty(): Returns if the list is empty or not
   - value_at(index): Finds the value at a specified index
