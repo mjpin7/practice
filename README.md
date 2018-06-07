@@ -12,6 +12,7 @@ Practice implementing various data structures and algorithms in different langua
   - getInput(arr, size): Gets input to enter into the array
 
 #### <a name="link-list"></a>Linked List
+  - Implemented in C++, Python and Java
   - size(): Finds the size of the list
   - empty(): Returns if the list is empty or not
   - value_at(index): Finds the value at a specified index
