@@ -1,4 +1,5 @@
 #!/usr/bin/env python.
+## PYTHON3
 class Node:
 
     def __init__(self, value = None):
@@ -12,10 +13,11 @@ class LinkedList:
     def __init__(self):
         self.head = None
     
+    # Function to print the list
     def printList(self):
         n = self.head
 
-        print("List: ", end = " ")
+        print("List: ", end = "")
         while(n):
             print(n.value, end = " ")
             n = n.next
