@@ -4,6 +4,7 @@ Practice implementing various data structures and algorithms in different langua
 ### Contents
 * [Dynamic Array (C++)](#dyn-array)
 * [Linked List](#link-list)
+* [Queue](#queue)
 
 #### <a name="dyn-array"></a>Dynamic Array (C++)
   - Program to dynamically create a resizable array
@@ -24,3 +25,10 @@ Practice implementing various data structures and algorithms in different langua
   - back(): Returns the last value without removing it
   - insert(index, value): Inserts value at the specified index
   - erase(index): Deletes the node at the specified index
+
+  #### <a name="ququq"></a>Queue (implemented using a list)
+  - Implemented in C++(Template), Python and Java(Generically)
+  - enqueue(value): Adds a new element to the end of the queue
+  - dequeue(): Removes and a returns an element at the front of the queue
+  - empty(): Checks if the queue is empty
+  - printQueue(): Prints the queue to the console
