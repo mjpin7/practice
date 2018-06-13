@@ -26,7 +26,7 @@ Practice implementing various data structures and algorithms in different langua
   - insert(index, value): Inserts value at the specified index
   - erase(index): Deletes the node at the specified index
 
-  #### <a name="ququq"></a>Queue (implemented using a list)
+  #### <a name="queue"></a>Queue (implemented using a list)
   - Implemented in C++(Template), Python and Java(Generically)
   - enqueue(value): Adds a new element to the end of the queue
   - dequeue(): Removes and a returns an element at the front of the queue
