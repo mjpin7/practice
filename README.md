@@ -6,6 +6,8 @@ Practice implementing various data structures and algorithms in different langua
 * [Linked List](#link-list)
 * [Queue](#queue)
 
+---
+
 #### <a name="dyn-array"></a>Dynamic Array (C++)
   - Program to dynamically create a resizable array
   - growArray(arr, size): Doubles the size of the array. Allocates and frees memory when needed
