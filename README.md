@@ -5,6 +5,7 @@ Practice implementing various data structures and algorithms in different langua
 * [Dynamic Array (C++)](#dyn-array)
 * [Linked List](#link-list)
 * [Queue](#queue)
+* [Hash Table](#hash)
 
 ---
 
@@ -34,3 +35,12 @@ Practice implementing various data structures and algorithms in different langua
   - dequeue(): Removes and a returns an element at the front of the queue
   - empty(): Checks if the queue is empty
   - printQueue(): Prints the queue to the console
+
+  #### <a name="hash"></a>Hash Table (implemented using linear probing and seperate chaining)
+  - Implemented in C++(Template)
+  - sizeTable(): Returns the size of the table
+  - isEmpty(): Checks whether the table is empty
+  - insert(key, value): Inserts a key/value pair into the hash table
+  - remove(key): Removes a pair in the hash map given a certain key
+  - get(key): Get a value given a certain key
+  - printTable(): Prints the hash table
