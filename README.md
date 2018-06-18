@@ -38,8 +38,8 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - empty(): Checks if the queue is empty
   - printQueue(): Prints the queue to the console
 
-  #### <a name="hash"></a>Hash Table (implemented using linear probing and seperate chaining)
-  - Implemented in C++(Template)
+  #### <a name="hash"></a>Hash Table (implemented using seperate chaining)
+  - Implemented in C++(Template), Python
   - sizeTable(): Returns the size of the table
   - isEmpty(): Checks whether the table is empty
   - insert(key, value): Inserts a key/value pair into the hash table
