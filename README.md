@@ -8,6 +8,7 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 * [Linked List](#link-list)
 * [Queue](#queue)
 * [Hash Table](#hash)
+* [Binary Search](#bin-search)
 
 ---
 
@@ -46,3 +47,8 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - remove(key): Removes a pair in the hash map given a certain key
   - get(key): Get a value given a certain key
   - printTable(): Prints the hash table
+
+  #### <a name="bin-search"></a>Binary Search
+  - Implemented in C++, Python and Java
+  - Implemented both iterative and recursive versions
+  - On sorted array of integers
