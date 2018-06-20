@@ -9,6 +9,7 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 * [Queue](#queue)
 * [Hash Table](#hash)
 * [Binary Search](#bin-search)
+* [Binary Search Tree](#BST)
 
 ---
 
@@ -52,3 +53,14 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - Implemented in C++, Python and Java
   - Implemented both iterative and recursive versions
   - On sorted array of integers
+
+  #### <a name="BST"></a>Binary Search Tree
+  - Implemented in C++ and Java
+  - insert(value): To insert a value into the BST
+  - inOrder(): To print the tree in "In-Order" traversal
+  - delete(value): Deletes a value in the tree
+  - isInTree(value): Checks whether a given value is in the tree
+  - getMin(): Gets the minimum value in the BST
+  - getMax(): Gets the maximum value in the BST
+  - getHeight(): Gets the height of the BST
+  
