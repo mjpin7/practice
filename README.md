@@ -3,7 +3,7 @@ Practice implementing various data structures and algorithms in different langua
 
 Flashcards for data structures: https://quizlet.com/mjpin7
 
-### Contents
+## Contents
 * [Dynamic Array (C++)](#dyn-array)
 * [Linked List](#link-list)
 * [Queue](#queue)
@@ -13,13 +13,13 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 
 ---
 
-#### <a name="dyn-array"></a>Dynamic Array (C++)
+## <a name="dyn-array"></a>Dynamic Array (C++)
   - Program to dynamically create a resizable array
   - growArray(arr, size): Doubles the size of the array. Allocates and frees memory when needed
   - printArray(arr, size): Prints the array to the console
   - getInput(arr, size): Gets input to enter into the array
 
-#### <a name="link-list"></a>Linked List
+## <a name="link-list"></a>Linked List
   - Implemented in C++, Python and Java(Generically)
   - size(): Finds the size of the list
   - empty(): Returns if the list is empty or not
@@ -33,14 +33,14 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - insert(index, value): Inserts value at the specified index
   - erase(index): Deletes the node at the specified index
 
-  #### <a name="queue"></a>Queue (implemented using a list)
+## <a name="queue"></a>Queue (implemented using a list)
   - Implemented in C++(Template), Python and Java(Generically)
   - enqueue(value): Adds a new element to the end of the queue
   - dequeue(): Removes and a returns an element at the front of the queue
   - empty(): Checks if the queue is empty
   - printQueue(): Prints the queue to the console
 
-  #### <a name="hash"></a>Hash Table (implemented using seperate chaining and linear probing)
+## <a name="hash"></a>Hash Table (implemented using seperate chaining and linear probing)
   - Implemented in C++(Template, chaining), Python(chaining), Java(linearly probing)
   - sizeTable(): Returns the size of the table
   - isEmpty(): Checks whether the table is empty
@@ -49,12 +49,12 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - get(key): Get a value given a certain key
   - printTable(): Prints the hash table
 
-  #### <a name="bin-search"></a>Binary Search
+## <a name="bin-search"></a>Binary Search
   - Implemented in C++, Python and Java
   - Implemented both iterative and recursive versions
   - On sorted array of integers
 
-  #### <a name="BST"></a>Binary Search Tree
+## <a name="BST"></a>Binary Search Tree
   - Implemented in C++ and Java
   - insert(value): To insert a value into the BST
   - inOrder(): To print the tree in "In-Order" traversal
