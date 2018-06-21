@@ -10,6 +10,7 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 * [Hash Table](#hash)
 * [Binary Search](#bin-search)
 * [Binary Search Tree](#BST)
+* [Heap/HeapSort](#heap)
 
 ---
 
@@ -63,4 +64,16 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - getMin(): Gets the minimum value in the BST
   - getMax(): Gets the maximum value in the BST
   - getHeight(): Gets the height of the BST
+
+## <a name="heap"></a>Heap/HeapSort
+  - Implemented in Java with root node at index 1
+  - maxHeapify(index): To heapify (sift down) an index in the heap
+  - insert(value): To insert a value into the heap
+  - siftUp(index): To sift a value up at index, used when inserting
+  - removeMax(): Remove and return the max value in the heap as well as make sure to keep heap conditions
+  - heapSort(array): Takes an unsorted array and sorts it using HeapSort
+  - getMax(): Returns but does not remove the max value in heap
+  - printHeap(): Prints the heap
+  - getSize(): Gets the size of the heap
+  - isEmpty(): Checks if the heap is empty
   
