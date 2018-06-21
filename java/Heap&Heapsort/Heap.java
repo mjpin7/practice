@@ -1,5 +1,6 @@
 /**
- * Class for a heap. Methods implemented are using a max-heap
+ * Class for a heap. Methods implemented are using a max-heap 
+ * ROOT INDEX STARTS AT INDEX 1 IN ARRAY
  * 
  * @author MPinheiro
  *
