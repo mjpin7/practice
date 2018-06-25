@@ -12,6 +12,8 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 * [Binary Search Tree](#BST)
 * [Heap/HeapSort](#heap)
 * [Sorting](#sort)
+  * [HeapSort](#heap)
+  * [SelectionSort](#select)
 
 ---
 
@@ -82,7 +84,7 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   #### HeapSort
   - See [Heap/HeapSort](#heap)
   
-  #### Selection Sort
+  #### <a name="select"></a>Selection Sort
   - Implemented in C++, Python and Java
   - Implemented In-Place
   
