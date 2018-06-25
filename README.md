@@ -12,7 +12,7 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 * [Binary Search Tree](#BST)
 * [Heap/HeapSort](#heap)
 * [Sorting](#sort)
-  * [HeapSort](#heap)
+  * [Heap Sort](#heap)
   * [Selection Sort](#select)
   * [Insertion Sort](#insert)
 
