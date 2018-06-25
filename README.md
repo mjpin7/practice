@@ -80,6 +80,6 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 
 ## <a name="sort"></a>Sorting
   ### Selection Sort
-    - Implemented in Java
-    - Implemented In-Place
+  - Implemented in Java
+  - Implemented In-Place
   
