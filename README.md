@@ -79,7 +79,10 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - isEmpty(): Checks if the heap is empty
 
 ## <a name="sort"></a>Sorting
-  ### Selection Sort
+  #### HeapSort
+  - See [Heap/HeapSort](#heap)
+  
+  #### Selection Sort
   - Implemented in Java
   - Implemented In-Place
   
