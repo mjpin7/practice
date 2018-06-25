@@ -1,7 +1,7 @@
 # Practice
 Practice implementing various data structures and algorithms in different languages.
 
-Flashcards for data structures: https://quizlet.com/mjpin7
+Flashcards for data structures/algorithms: https://quizlet.com/mjpin7
 
 ## Contents
 * [Dynamic Array (C++)](#dyn-array)
