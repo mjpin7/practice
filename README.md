@@ -15,6 +15,7 @@ Flashcards for data structures/algorithms: https://quizlet.com/mjpin7
   * [Heap Sort](#heap)
   * [Selection Sort](#select)
   * [Insertion Sort](#insert)
+  * [Quick Sort](#quick)
 
 ---
 
@@ -92,4 +93,9 @@ Flashcards for data structures/algorithms: https://quizlet.com/mjpin7
   #### <a name="insert"></a>Insertion Sort
   - Implemented in C++, Python and Java
   - Implemented In-Place
+
+  #### <a name = "quick"></a>Quick Sort
+  - Implemented in C++, Python and Java
+  - Implemented In-Place
+  - Implemented using a random pivot variable (to try and avoid the O(n^2) time complexity [worst case])
   
