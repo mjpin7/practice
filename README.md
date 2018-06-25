@@ -13,7 +13,8 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 * [Heap/HeapSort](#heap)
 * [Sorting](#sort)
   * [HeapSort](#heap)
-  * [SelectionSort](#select)
+  * [Selection Sort](#select)
+  * [Insertion Sort](#insert)
 
 ---
 
@@ -86,5 +87,9 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   
   #### <a name="select"></a>Selection Sort
   - Implemented in C++, Python and Java
+  - Implemented In-Place
+
+  #### <a name="insert"></a>Insertion Sort
+  - Implemented in C++
   - Implemented In-Place
   
