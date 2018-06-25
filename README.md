@@ -11,6 +11,7 @@ Flashcards for data structures: https://quizlet.com/mjpin7
 * [Binary Search](#bin-search)
 * [Binary Search Tree](#BST)
 * [Heap/HeapSort](#heap)
+* [Sorting](#sort)
 
 ---
 
@@ -76,4 +77,9 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - printHeap(): Prints the heap
   - getSize(): Gets the size of the heap
   - isEmpty(): Checks if the heap is empty
+
+## <a name="sort"></a>Sorting
+  #### Selection Sort
+    - Implemented in Java
+    - Implemented In-Place
   
