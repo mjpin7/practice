@@ -83,6 +83,6 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - See [Heap/HeapSort](#heap)
   
   #### Selection Sort
-  - Implemented in Java
+  - Implemented in C++ and Java
   - Implemented In-Place
   
