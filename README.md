@@ -90,6 +90,6 @@ Flashcards for data structures: https://quizlet.com/mjpin7
   - Implemented In-Place
 
   #### <a name="insert"></a>Insertion Sort
-  - Implemented in C++ and Python
+  - Implemented in C++, Python and Java
   - Implemented In-Place
   
