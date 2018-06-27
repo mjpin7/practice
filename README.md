@@ -16,6 +16,7 @@ Flashcards for data structures/algorithms: https://quizlet.com/mjpin7
   * [Selection Sort](#select)
   * [Insertion Sort](#insert)
   * [Quick Sort](#quick)
+  * [Merge Sort](#merge)
 
 ---
 
@@ -98,4 +99,8 @@ Flashcards for data structures/algorithms: https://quizlet.com/mjpin7
   - Implemented in C++, Python and Java
   - Implemented In-Place
   - Implemented using a random pivot variable (to try and avoid the O(n^2) time complexity [worst case])
+
+  #### <a name = "merge"></a>Merge Sort
+  - Implemented in C++, Python and Java
+  - Implemented In-Place
   
